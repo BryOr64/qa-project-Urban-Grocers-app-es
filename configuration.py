@@ -1,4 +1,4 @@
-URL_SERVICE = "https://cnt-790d62a3-8903-4315-b2cb-db654b2741fd.containerhub.tripleten-services.com"
+URL_SERVICE = "https://cnt-d0001ca1-716f-4212-9690-6811278b5817.containerhub.tripleten-services.com"
 DOC_PATH = "/docs/"
 LOG_MAIN_PATH = "/api/logs/main/"
 USERS_TABLE_PATH = "/api/db/resources/user_model.csv"

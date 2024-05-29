@@ -42,18 +42,34 @@ def post_new_client_kit(kit_body, auth_token):
                          )
 
 
-"""resp2 = post_new_client_kit(data.kit_body, get_new_user_token())
-#resp = resp2.json()
+'''resp2 = post_new_client_kit(data.kit_body_class['kit8'], get_new_user_token())
+print(resp2.status_code)
 print("esto es para la creacion de un nuevo kit")
 print(resp2.json())
-print(resp2.url)
-#print(resp.json['name'])"""
+print(resp2.url)'''
 
 
-def positive_assert(name):# "kit1": {"name": "a"}
-    kit_response = post_new_client_kit(name, get_new_user_token())
+
+def positive_assert(name_kit): #"kit1": {"name": "a"}
+    kit_response = post_new_client_kit(name_kit, get_new_user_token())
     assert kit_response.status_code == 201
-    assert kit_response.json()["name"] == name["name"]
+    assert kit_response.json()["name"] == name_kit["name"]
+
+
+def negative_assert_code_400(kit_body):
+    response = post_new_client_kit(kit_body, get_new_user_token())
+    assert response.status_code == 400
+    assert response.json()["code"] == 400
+    assert response.json()["message"] == "No se han aprobado todos los parámetros requeridos"
+
+
+'''prueba_Negativa = negative_assert_code_400(data.kit_body_class["kit9"])
+print(prueba_Negativa.status_code)
+print(prueba_Negativa.json())
+#print(prueba_Negativa.json["code"])'''
+
+
+
 
 
 
