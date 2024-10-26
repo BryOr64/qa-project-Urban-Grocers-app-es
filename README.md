@@ -1,7 +1,9 @@
 # _Proyecto Urban Grocers_ 
+Urban Grocers es un aplicacion en la cual podemos realizar un pedido de un kit de alimentos para que nos los puedan preparar, de tal manera es que tambien podemos realizar nuestro propio kit de alimentos para poder tener un kit personalizado pero este no puede pasar de un cierto número de componentes.
 
+para este proreyecto nos adentratemos para realizar las respectivas creaciones de cuentas de usuarios para que asi nos enfoquemos en la creacion neta de los kits personales.
 
-## Descripción del Proyecto: Creación de un Kit para Usuario/a
+## Descripción del Proyecto
 
 El objetivo de este proyecto es la creación de un kit personalizado para un usuario o usuaria específica. El proceso consta de los siguientes pasos:
 1.  **Creación de Usuario/a:**
@@ -51,3 +53,6 @@ En el proyecto se utilizan diversas tecnologías y técnicas, incluyendo PyCharm
 4.  **Git y Github:**
     
     -   Github es una plataforma de desarrollo colaborativo que permite alojar proyectos utilizando el sistema de control de versiones Git. Github Desktop es una aplicación que facilita la interacción con repositorios Github a través de una interfaz gráfica.
+
+##Conclusiones
+se realizaron las pruebas para ver si podemos crear los nombres de los kits personales, como pudimos evidenciar pasaron algunas pruebas de manera satisfactoria, pero no asi algunas pruebas las cuales se reportaron mediante JIRA para que se puedan tomar nota y poder revisar esas pruebas que no pasaron.
